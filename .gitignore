@@ -1,0 +1,18 @@
+# Runtime log written next to the watcher
+scripts/switch.log
+*.log
+
+# Third-party tools are not vendored -- see tools/README.md
+ControlMyMonitor.exe
+ControlMyMonitor.cfg
+ControlMyMonitor.chm
+deskmux.exe
+deskmuxw.exe
+MultiMonitorTool.exe
+MultiMonitorTool.chm
+*.zip
+checksums.txt
+
+# Scratch output from diagnostics
+*.csv
+monitors.txt
